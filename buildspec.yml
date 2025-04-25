@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+  build:
+    commands:
+      - echo "No build needed for static files"
+artifacts:
+  files:
+    - '**/*'
+  base-directory: .
